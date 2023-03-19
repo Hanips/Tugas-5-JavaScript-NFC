@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="image/x-icon" rel="shortcut icon" href="https://cdn.detik.net.id/detikcom/images/favicon.ico?v=202302281174">
+    <title>Bootstrap 4, from LayoutIt!</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<nav class="navbar navbar-expand-lg bg-light">
+				<div class="container-fluid">
+				  <h1 class="navbar-brand">Hanip's Room</h1>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<br>
+			<div class="list-group">
+				<button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+				  Kalkulator
+				</button>
+				<button type="button" class="list-group-item list-group-item-action">---</button>
+				<button type="button" class="list-group-item list-group-item-action">---</button>
+				<button type="button" class="list-group-item list-group-item-action">---</button>
+				<button type="button" class="list-group-item list-group-item-action">---</button>
+			  </div>
+		</div>
+		<div class="col-md-6">
+			<br>
+			<form id="kalkulator">
+				<table class="table table-dark table-striped">
+					<tr align="center">
+						<th colspan="3"><h1 style="color:white; font-family:monospace">Kalkulator</h1></th>
+					</tr>
+					<tr align="center">
+						<td><input type="text" name="angka1" class="form-control" placeholder="Angka 1"></td>
+						<td>
+							<button class="btn btn-light" type="button" disabled>
+								<span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+							</button>
+						</td>
+						<td><input type="text" name="angka2" class="form-control" placeholder="Angka 2"></td>
+					</tr>
+					<tr>
+						<td colspan="3" align="center"><input type="text" name="hasil" class="form-control" disabled></td>
+					</tr>
+					<tr>
+						<td colspan="3" align="center">
+							<button type="button" class="btn btn-success" onclick="tambah()">+</button>
+							<button type="button" class="btn btn-danger" onclick="kurang()">-</button>
+							<button type="button" class="btn btn-warning" onclick="bagi()">/</button>
+							<button type="button" class="btn btn-primary" onclick="kali()">X</button>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<div class="col-md-3">
+			<div>
+				<img src="https://www.w3schools.com/images/img_subs_160.png" alt="ads" align="right">
+			</div>
+			<div>
+				<img src="https://www.w3schools.com/images/img_bootcamp_160.png" alt="ads" align="right">
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card text-center">
+				<div class="card-header">
+					Hanip's Consultant
+				</div>
+				<div class="card-body">
+				  <h5 class="card-title">Gedung BI Semarang</h5>
+				  <p class="card-text">Jl. Kota Lama Blok 03, Kota Semarang, Jawa Tengah, Indonesia</p>
+				</div>
+			  </div>
+		</div>
+	</div>
+</div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/skripku.js"></script>
+  </body>
+</html>
